@@ -630,6 +630,11 @@ li :hover{
     .feedback-heading{
         font-size:30px ;
     }
+    .feedback-box {
+    width: 430px;
+    height: 190px;
+    margin: 0 0 0 13px;
+    }
 
     .subscribe {
         width: 329px;
