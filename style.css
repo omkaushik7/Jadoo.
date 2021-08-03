@@ -645,6 +645,9 @@ li :hover{
     .feedback-box img{
         padding: 0 0 5px 0;
     }
+    .brands-logo {
+    margin: 0 auto;
+   }
 
     .subscribe {
         width: 300px;
