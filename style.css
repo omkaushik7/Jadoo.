@@ -187,7 +187,6 @@ li :hover{
     height: 310px;
     border-radius: 15px;
     margin: 10px 82px;
-    cursor: pointer;
 }
 .destinations-card:hover{
     box-shadow: 0px 0px 10px -3px;
@@ -395,7 +394,7 @@ li :hover{
 }
 .brand-logo{
     width: 133px;
-    height: 40px;
+    height: 30px;
     margin: 30px 30px 30px 0;
 }
 /* //////////////////////////////////////////////////////////////////////////// */
@@ -443,7 +442,7 @@ li :hover{
     width: 300px;
     height: 40px;
     border-radius: 7px;
-    margin: 0 20px 0 0;
+    margin: 0 5px 0 0;
     border: none;
     padding: 10px;
 }
@@ -516,6 +515,7 @@ li :hover{
 .app{
     color: #5E6282;
     font-family: poppins;
+    text-align: center;
 }
 .apps-links img{
     width: 80px;
@@ -593,7 +593,7 @@ li :hover{
         background-size: 229px,168px 261px,230px;
     }
     .desc {
-        margin: 129px 0 0 30px;
+        margin: 162px 0 0 30px;
         width: 311px;
     }
     .tagline {
@@ -623,30 +623,39 @@ li :hover{
     .category-title{
         font-size: 25px;
     }
+    .booking{
+        margin: 30px;
+    }
     .booking-steps-heading{
-        font-size: 30px;
+        font-size: 27px;
         width: 340px;
     }
     .feedback-heading{
         font-size:30px ;
     }
+    .feed-back{
+        margin: 30px;
+    }
     .feedback-box {
-    width: 430px;
-    height: 190px;
-    margin: 0 0 0 13px;
+        width: 430px;
+        height: 190px;
+        padding: 0 4px 0 27px;
+    }
+    .feedback-box img{
+        padding: 0 0 5px 0;
     }
 
     .subscribe {
-        width: 329px;
+        width: 300px;
         height: 288px;
         background-size: 183px,92px;
     }
     .send {
-        margin: -10px 0 0 300px;
+        margin: -10px 0 0 270px;
     }
     .subscribe h3 {
         font-family: poppins;
-        width: 327px;
+        width: 300px;
         text-align: center;
         margin: 20px auto;
         color: #5E6282;
@@ -656,7 +665,15 @@ li :hover{
     .email{
         padding: 9px;
     }
-    
-    
-
+    .footer-name {
+        margin: 14px 0 0 30px;
+    }
+    .more{
+        margin: 20px 0 0 55px;
+    }
+}
+@media (max-width:339px){
+    .more{
+        margin: 20px 0 0 0;
+    }
 }
