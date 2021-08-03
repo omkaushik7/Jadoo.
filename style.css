@@ -500,7 +500,7 @@ li :hover{
     color: #5E6282;
 }
 .contact{
-    margin: 20px 0 0 80px;
+    margin: 20px 0 0 50px;
 }
 .more{
     margin: 20px 0 0 55px;
@@ -628,10 +628,11 @@ li :hover{
     }
     .booking-steps-heading{
         font-size: 27px;
-        width: 340px;
+        width: 300px;
     }
     .feedback-heading{
-        font-size:30px ;
+        font-size:30px;
+        width: 275px;
     }
     .feed-back{
         margin: 30px;
@@ -667,13 +668,5 @@ li :hover{
     }
     .footer-name {
         margin: 14px 0 0 30px;
-    }
-    .more{
-        margin: 20px 0 0 55px;
-    }
-}
-@media (max-width:339px){
-    .more{
-        margin: 20px 0 0 0;
     }
 }
